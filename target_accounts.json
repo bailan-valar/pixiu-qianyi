@@ -40,6 +40,11 @@
     "account_owner": "无"
   },
   {
+    "account_name": "招商visa",
+    "account_type": "信用卡",
+    "account_owner": "无"
+  },
+  {
     "account_name": "微信零钱",
     "account_type": "网络账户",
     "account_owner": "无"
@@ -70,6 +75,31 @@
     "account_owner": "无"
   },
   {
+    "account_name": "一起养宠物",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "吃喝玩乐",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "小荷包-Fucking",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "恋爱小金库",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "生活用品",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
     "account_name": "固定资产",
     "account_type": "物品资产",
     "account_owner": "无"
@@ -78,6 +108,11 @@
     "account_name": "特斯拉",
     "account_type": "贵重资产",
     "account_owner": "自己"
+  },
+  {
+    "account_name": "浙商证券",
+    "account_type": "上市证券",
+    "account_owner": "无"
   },
   {
     "account_name": "贷款买车",
@@ -118,5 +153,10 @@
     "account_name": "房租",
     "account_type": "应收款",
     "account_owner": "房东"
+  },
+  {
+    "account_name": "宠物消费",
+    "account_type": "预付款",
+    "account_owner": "氧气宠物"
   }
 ]

@@ -444,8 +444,8 @@ class PixiuConverterGUI:
                 # 收入：in_account_name 是我的账户
                 account = row.get('in_account_name', '')
             else:  # 支出
-                # 支出：form_account_name 是我的账户
-                account = row.get('form_account_name', '')
+                # 支出：from_account_name 是我的账户
+                account = row.get('from_account_name', '')
 
             if pd.notna(account) and account:
                 accounts.add(account)
@@ -1208,9 +1208,9 @@ class PixiuConverterGUI:
                 # 获取目标账户和标签 - 根据收支类型选择不同的账户列
                 if row['income_type'] == '收入':
                     source_account = row.get('in_account_name', '')
-                    tag_account = row.get('form_account_name', '')
+                    tag_account = row.get('from_account_name', '')
                 else:  # 支出
-                    source_account = row.get('form_account_name', '')
+                    source_account = row.get('from_account_name', '')
                     tag_account = row.get('in_account_name', '')
 
                 if pd.notna(source_account) and source_account in self.account_mapping:
@@ -1227,11 +1227,16 @@ class PixiuConverterGUI:
                     tags.append(original_label)
 
                 # 构建新记录
+                # 格式化日期：从"2026-02-13 10:46"格式转换为"2026-02-13"
+                date_str = str(row.get('date', ''))
+                if ' ' in date_str:
+                    date_str = date_str.split(' ')[0]  # 只取日期部分
+
                 new_record = {
-                    '交易日期': row.get('date', ''),
+                    '交易日期': date_str,
                     '收支类型': row['income_type'],
                     '收支项目': target_category,
-                    '金额': abs(float(row.get('income_amount', 0) if pd.notna(row.get('income_amount')) else 0)),
+                    '金额': abs(float(row.get('amount', 0) if pd.notna(row.get('amount')) else 0)),
                     '账户名称': target_account,
                     '标签': ','.join(tags) if tags else '',
                     '备注': row.get('remark', '')
