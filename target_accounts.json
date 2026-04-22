@@ -1,0 +1,122 @@
+[
+  {
+    "account_name": "现金",
+    "account_type": "现金",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "招商银行",
+    "account_type": "银行卡",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "农业银行",
+    "account_type": "银行卡",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "招商信用卡",
+    "account_type": "信用卡",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "花呗",
+    "account_type": "信用卡",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "京东白条",
+    "account_type": "信用卡",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "农业信用卡",
+    "account_type": "信用卡",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "抖音月付",
+    "account_type": "信用卡",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "微信零钱",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "余额宝",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "京东余额",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "存钱小荷包",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "电信账户",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "生活固定支出",
+    "account_type": "网络账户",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "固定资产",
+    "account_type": "物品资产",
+    "account_owner": "无"
+  },
+  {
+    "account_name": "特斯拉",
+    "account_type": "贵重资产",
+    "account_owner": "自己"
+  },
+  {
+    "account_name": "贷款买车",
+    "account_type": "应付款",
+    "account_owner": "招商银行"
+  },
+  {
+    "account_name": "结婚",
+    "account_type": "应付款",
+    "account_owner": "亚鹏"
+  },
+  {
+    "account_name": "云服务",
+    "account_type": "应收款",
+    "account_owner": "绿晶"
+  },
+  {
+    "account_name": "代码托管",
+    "account_type": "应收款",
+    "account_owner": "绿晶"
+  },
+  {
+    "account_name": "丰收包装",
+    "account_type": "应收款",
+    "account_owner": "智澜"
+  },
+  {
+    "account_name": "威邦",
+    "account_type": "应收款",
+    "account_owner": "智澜"
+  },
+  {
+    "account_name": "轮峰",
+    "account_type": "应收款",
+    "account_owner": "智澜"
+  },
+  {
+    "account_name": "房租",
+    "account_type": "应收款",
+    "account_owner": "房东"
+  }
+]
